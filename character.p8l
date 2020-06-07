@@ -1,0 +1,10 @@
+character={}
+character["name"] = "bob"
+character["death"] = false
+character["dark"] = false
+character["water"] = false
+character["life"] = false
+character["air"] = false
+character["earth"] = false
+character["fire"] = false
+character["light"] = false
