@@ -23,10 +23,10 @@ function show_init()
 end
 
 function show_update()
- if btnp(🅾️) then 
+ if btnp(🅾️) then
   game_play()
-	elseif btnp(❎) then 
-	 export_init() 
+	elseif btnp(❎) then
+	 export_init()
 	end
 end
 
@@ -34,8 +34,7 @@ function show_draw()
  cls()
  for k,v in pairs(character) do
  	if k != "name" then
- 		if v then v = "true" else v = "false" end
- 		print(k..": "..v)
+ 		print(k..": "..tostr(v))
  	end
  end
 	print("🅾️: play the game (change stats)")
@@ -45,12 +44,12 @@ end
 function game_play()
 	-- for demo purpose, we just flip
 	-- all the values between t and f
-	-- in real gameplay, anything 
+	-- in real gameplay, anything
 	-- could happen.
-	
+
 	 for k,v in pairs(character) do
  	if k != "name" then
- 	 character[k] = not(v)	
+ 	 character[k] = not(v)
  	end
  end
 end
@@ -66,11 +65,10 @@ function export_init()
 	printh('character={}', file, true)
 	printh('character["name"] = "'.. character["name"]..'"', file, false)
 	for k,v in pairs(character) do
-		if k != "name" then 
-		 if v then v = "true" else v = "false" end
-			 printh('character["'..k..'"] = '..v, file, false)
-			end
+		if k != "name" then
+			 printh('character["'..k..'"] = '..tostr(v), file, false)
 		end
+	end
  status = "success"
 end
 

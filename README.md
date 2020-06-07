@@ -38,8 +38,8 @@ Use X button to re-export the character.
 
 Re-examine the new character.pl8 file in a text editor to verify the data has changed.
 
-TO DO: 
+TO DO:
 
-THere is obviously quite a way to go, primarily around establishing a dictionary of attributes and agreement about how such attributes are implemented across gamecarts.  THe ultimate vision is to be able to import a character from one gamecart into a gamecart of completely different genre and gameplay, and have that character behave in ways consumate with its build and prior experiences.  
+There is obviously quite a way to go, primarily around establishing a dictionary of attributes and agreement about how such attributes are implemented across gamecarts.  The ultimate vision is to be able to import a character from one gamecart into a gamecart of completely different genre and gameplay, and have that character behave in ways consumate with its build and prior experiences.  
 
 IE:  Gandalf can throw flaming pinecones in the Lord of the Rings adventure game, and has similar awesome fire powers in a Buck Rogers RPG.
